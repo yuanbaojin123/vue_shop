@@ -1,11 +1,10 @@
 <template>
   <div id="app">
-    这是一个电商项目
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-
 export default {
   name: 'app',
   components: {
